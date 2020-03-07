@@ -1,4 +1,3 @@
-
 def intersection(nums1, nums2):
     """
     :type nums1: List[int]
