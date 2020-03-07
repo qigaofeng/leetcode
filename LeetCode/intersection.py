@@ -1,4 +1,3 @@
-#两数组求交集
 def intersection(nums1, nums2):
     """
     :type nums1: List[int]
