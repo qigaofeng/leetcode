@@ -1,4 +1,3 @@
-
 def distributeCandies(candies, num_people):
     """
     :type candies: int
