@@ -9,7 +9,7 @@ def sortString(s):
     res = []
     while s:
         c_list = list(set(s))
-        c_list.sort(key=lambda c: ord(c))
+        c_list.sort(key=lambda c: ord(c)) #也可以直接用c_list.sort（） 不要里面的参数
         for i in c_list:
             res.append(i)
             s.remove(i)
