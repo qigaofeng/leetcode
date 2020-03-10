@@ -15,7 +15,7 @@ def removeElement(nums, val):
     #res = len(numss)
     return len(numss)
 
-def removeElement(self, nums: List[int], val: int) -> int:
+def removeElement(nums, val) :
     while val in nums:
         nums.remove(val)
     return len(nums)
