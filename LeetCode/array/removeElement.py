@@ -1,4 +1,3 @@
-#
 def removeElement(nums, val):
     """
     :type nums: List[int]
