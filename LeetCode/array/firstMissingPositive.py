@@ -8,3 +8,4 @@ def firstMissingPositive(self, nums):
         if i not in nums:
             return i
         i += 1
+
