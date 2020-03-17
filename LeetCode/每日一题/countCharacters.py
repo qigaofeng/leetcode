@@ -1,4 +1,4 @@
-def countCharacters( words, chars):
+def countCharacters(words, chars):
     """
     :type words: List[str]
     :type chars: str
