@@ -20,5 +20,6 @@ def canCompleteCircuit(gas, cost):
 
     return starting_station if total_tank >= 0 else -1
 
+
 if __name__ == "__main__":
-    print(canCompleteCircuit([1,2,3,4,5],[3,4,5,1,2]))
+    print(canCompleteCircuit([1, 2, 3, 4, 5], [3, 4, 5, 1, 2]))
