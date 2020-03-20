@@ -1,6 +1,5 @@
 import collections
 
-
 def getHint(secret, guess):
     """
         1. 先计算相等的字符a的个数.
