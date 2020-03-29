@@ -10,3 +10,5 @@ def minSubArrayLen(s,nums):
     return 0 if ans == len(nums) + 1 else ans
 
 
+if __name__ == "__main__":
+    print(minSubArrayLen(9,[1,23,3,4]))
