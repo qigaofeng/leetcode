@@ -19,4 +19,4 @@ def lengthOfLongestSubstring(s):
     return ans
 
 if __name__ == "__main__":
-    print(lengthOfLongestSubstring("asbdsa"))
+    print(lengthOfLongestSubstring("abash"))
