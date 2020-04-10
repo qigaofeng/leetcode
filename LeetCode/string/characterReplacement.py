@@ -1,11 +1,11 @@
-def characterReplacement( s, k):
+def characterReplacement(s, k):
     """
     :type s: str
     :type k: int
     :rtype: int
     """
     from collections import defaultdict
-    #ss = list(s)
+    # ss = list(s)
     left = 0
     ans = 0
     maxFreq = 0
@@ -20,6 +20,7 @@ def characterReplacement( s, k):
             freqDict[left_char] -= 1
         ans = max(ans, right - left + 1)
     return ans
+
 
 def characterReplacement1(s, k):
     """
@@ -45,5 +46,6 @@ def characterReplacement1(s, k):
         maxLen = max(maxLen, windowEnd - windowStart + 1)
     return maxLen
 
+
 if __name__ == "__main__":
-    print(characterReplacement(s="ABAB",k=2))
+    print(characterReplacement(s="ABBA", k=2))
