@@ -18,7 +18,8 @@ def lengthOfLongestSubstring(s):
                 left += 1
     return ans
 
-def lengthOfLongestSubstring1( s):
+
+def lengthOfLongestSubstring1(s):
     """
     :type s: str
     :rtype: int
@@ -29,12 +30,14 @@ def lengthOfLongestSubstring1( s):
     for right in range(len(s)):
         right_char = s[right]
         freq_dict[right_char] += 1
-        #print(freq_dict[right_char])
+        # print(freq_dict[right_char])
         while freq_dict[right_char] > 1:
             leftChar = s[left]
             left += 1
             freq_dict[leftChar] -= 1
         ans = max(right - left + 1, ans)
     return ans
+
+
 if __name__ == "__main__":
     print(lengthOfLongestSubstring1("pwwkew"))
